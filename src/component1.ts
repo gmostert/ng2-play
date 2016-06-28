@@ -14,7 +14,7 @@ export class Component1 {
     }
     
     goTo(): void {
-      this.router.navigate(['/comp1%comp2']);
+      this.router.navigate(['/comp1/comp2']);
     }
     
 }
